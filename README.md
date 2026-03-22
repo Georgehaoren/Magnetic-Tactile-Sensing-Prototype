@@ -129,7 +129,7 @@ Tasks / 任务
 	1.	Contact detection / 接触检测
 	2.	Touch vs punch classification / 轻触 vs 按压
 
-⸻
+---
 
 Features / 特征
 	•	Magnetic magnitude (B)
@@ -232,7 +232,7 @@ python ./explain_shap.py \
 
 ---
 
-Limitations / 局限性
+## Limitations / 局限性
 	•	Single magnet design / 单磁体设计
 	•	Limited spatial resolution / 空间分辨率有限
 	•	Sliding window latency / 存在时间窗口延迟
@@ -240,7 +240,7 @@ Limitations / 局限性
 
 ---
 
-Future Work / 未来工作
+## Future Work / 未来工作
 	•	Multi-sensor array / 多传感器阵列
 	•	Improved mechanical structure / 结构优化
 	•	Deep learning models / 深度学习模型
