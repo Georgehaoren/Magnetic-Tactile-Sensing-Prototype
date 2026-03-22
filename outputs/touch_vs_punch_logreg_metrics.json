@@ -1,0 +1,90 @@
+{
+  "task": "touch_vs_punch",
+  "model": "logreg",
+  "accuracy": 1.0,
+  "confusion_matrix": [
+    [
+      8,
+      0
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "classification_report": {
+    "punch": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    },
+    "touch": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 16.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 16.0
+    }
+  },
+  "n_train": 36,
+  "n_test": 16,
+  "feature_cols": [
+    "n_samples",
+    "duration_sec",
+    "gx_mean",
+    "gy_mean",
+    "gz_mean",
+    "B_mean",
+    "gx_std",
+    "gy_std",
+    "gz_std",
+    "B_std",
+    "dgx_mean",
+    "dgy_mean",
+    "dgz_mean",
+    "dB_mean",
+    "dgx_max_abs",
+    "dgy_max_abs",
+    "dgz_max_abs",
+    "dB_max_abs",
+    "gx_range",
+    "gy_range",
+    "gz_range",
+    "B_range",
+    "dB_dt_max",
+    "dB_dt_min",
+    "dB_dt_max_abs",
+    "dgx_dt_max_abs",
+    "dgy_dt_max_abs",
+    "dgz_dt_max_abs",
+    "rise_time_B",
+    "rise_time_dB",
+    "hold_B_mean",
+    "hold_B_std",
+    "hold_dB_mean",
+    "hold_dB_std",
+    "B_peak_idx_ratio",
+    "dB_peak_idx_ratio",
+    "B_zero_cross_rate",
+    "B_energy",
+    "dB_energy",
+    "gx_last",
+    "gy_last",
+    "gz_last",
+    "B_last",
+    "dB_last"
+  ]
+}

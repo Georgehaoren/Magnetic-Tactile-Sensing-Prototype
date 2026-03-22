@@ -1,0 +1,90 @@
+{
+  "task": "contact_vs_no_contact",
+  "model": "logreg",
+  "accuracy": 0.96,
+  "confusion_matrix": [
+    [
+      16,
+      0
+    ],
+    [
+      1,
+      8
+    ]
+  ],
+  "classification_report": {
+    "contact": {
+      "precision": 0.9411764705882353,
+      "recall": 1.0,
+      "f1-score": 0.9696969696969697,
+      "support": 16.0
+    },
+    "no_contact": {
+      "precision": 1.0,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.9411764705882353,
+      "support": 9.0
+    },
+    "accuracy": 0.96,
+    "macro avg": {
+      "precision": 0.9705882352941176,
+      "recall": 0.9444444444444444,
+      "f1-score": 0.9554367201426025,
+      "support": 25.0
+    },
+    "weighted avg": {
+      "precision": 0.9623529411764706,
+      "recall": 0.96,
+      "f1-score": 0.9594295900178252,
+      "support": 25.0
+    }
+  },
+  "n_train": 56,
+  "n_test": 25,
+  "feature_cols": [
+    "n_samples",
+    "duration_sec",
+    "gx_mean",
+    "gy_mean",
+    "gz_mean",
+    "B_mean",
+    "gx_std",
+    "gy_std",
+    "gz_std",
+    "B_std",
+    "dgx_mean",
+    "dgy_mean",
+    "dgz_mean",
+    "dB_mean",
+    "dgx_max_abs",
+    "dgy_max_abs",
+    "dgz_max_abs",
+    "dB_max_abs",
+    "gx_range",
+    "gy_range",
+    "gz_range",
+    "B_range",
+    "dB_dt_max",
+    "dB_dt_min",
+    "dB_dt_max_abs",
+    "dgx_dt_max_abs",
+    "dgy_dt_max_abs",
+    "dgz_dt_max_abs",
+    "rise_time_B",
+    "rise_time_dB",
+    "hold_B_mean",
+    "hold_B_std",
+    "hold_dB_mean",
+    "hold_dB_std",
+    "B_peak_idx_ratio",
+    "dB_peak_idx_ratio",
+    "B_zero_cross_rate",
+    "B_energy",
+    "dB_energy",
+    "gx_last",
+    "gy_last",
+    "gz_last",
+    "B_last",
+    "dB_last"
+  ]
+}

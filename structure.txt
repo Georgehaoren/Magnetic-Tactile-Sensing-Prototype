@@ -1,0 +1,26 @@
+.
+├── app.py
+├── assets
+│   ├── setup.jpg
+│   └── system_design.png
+├── data
+│   └── magnetic_tactile_20260322_103009.csv
+├── explain_shap.py
+├── explanations
+│   ├── contact_vs_no_contact_logreg_shap
+│   └── touch_vs_punch_logreg_shap
+├── magnetometer_csv
+│   └── magnetometer_csv.ino
+├── outputs
+│   ├── contact_vs_no_contact_logreg_feature_importance.csv
+│   ├── contact_vs_no_contact_logreg_metrics.json
+│   ├── contact_vs_no_contact_logreg.joblib
+│   ├── segment_features.csv
+│   ├── touch_vs_punch_logreg_feature_importance.csv
+│   ├── touch_vs_punch_logreg_metrics.json
+│   └── touch_vs_punch_logreg.joblib
+├── README.md
+├── realtime_inference_app.py
+├── requirements.txt
+├── start.sh
+└── train_baseline.py
