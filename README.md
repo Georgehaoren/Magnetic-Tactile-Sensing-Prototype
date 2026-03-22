@@ -153,7 +153,7 @@ zh
 ---
 
 ## Project Structure / 项目结构
-
+```
 .
 ├── README.md
 ├── requirements.txt
@@ -170,7 +170,7 @@ zh
 ├── data/
 ├── outputs/
 └── explanations/
-
+```
 
 ---
 
