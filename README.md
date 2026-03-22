@@ -185,50 +185,50 @@ zh
 ---
 
 ## Installation / 安装
-
+```
 chmod +x ./bootstrap_and_run.sh
 ./bootstrap_and_run.sh --csv ./data/your_data.csv
 
-
+```
 ---
 
 ## Usage / 使用流程
 
 1. Upload Arduino Code / 上传Arduino程序
-
+```
 ./arduino/magnetometer_csv.ino
-
+```
 
 ---
 
 2. Collect Data / 数据采集
-
+```
 streamlit run ./app.py
-
+```
 
 ---
 
 3. Train Model / 模型训练
-
+```
 python ./train_baseline.py --csv ./data/your_data.csv --outdir ./outputs
-
+```
 
 ---
 
 4. Real-Time Inference / 实时推理
-
+```
 streamlit run ./realtime_inference_app.py
-
+```
 
 ---
 
 5. SHAP Explainability / 可解释性分析
-
+```
 python ./explain_shap.py \
   --features ./outputs/segment_features.csv \
   --model ./outputs/contact_vs_no_contact_logreg.joblib \
   --outdir ./explanations
-
+```
 
 ---
 
